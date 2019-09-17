@@ -36,7 +36,7 @@ steps:
   displayName: 'publish artifacts'
 - task: sftpupload@1
   inputs:
-    sourceFolder: 'SimpleAPI.zip'
+    sourceFolder: './'
     contents: '**'
     targetFolder: 'GauravTalele'
     host: 'mahindragroupsft.mahindra.com'
